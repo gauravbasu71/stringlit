@@ -6,7 +6,21 @@ import pandas as pd
 import mplfinance as mpf
 import appdirs as ad
 ad.user_cache_dir = lambda *args: "/tmp"
+st.title("welcome to gaurav's Stock Tracker")
+st.header("Services")
+st.markdown("[Japan exchange](https://www.jpx.co.jp/english/)")
+st.markdown("[NYSE](https://www.nyse.com/index)")
 
+
+
+st.write("For Brokers, Check the box below:")
+
+checkbox_state = st.checkbox('Are you a broker')
+
+if checkbox_state:
+    st.write("Yes, I am a broker")
+else:
+    st.write("Not a broker")
 # Specify title and logo for the webpage.
 # Set up your web app
 st.set_page_config(layout="wide", page_title="WebApp_Demo")
