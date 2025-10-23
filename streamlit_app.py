@@ -10,7 +10,7 @@ st.title("welcome to gaurav's Stock Tracker")
 st.header("Services")
 st.markdown("[Japan exchange](https://www.jpx.co.jp/english/)")
 st.markdown("[NYSE](https://www.nyse.com/index)")
-st.image('(https://www.google.com/imgres?q=bombay%20stock%20exchange&imgurl=https%3A%2F%2Fblog.ipleaders.in%2Fwp-content%2Fuploads%2F2020%2F10%2FMT5-bombay-stock-exchange-bse.png&imgrefurl=https%3A%2F%2Fblog.ipleaders.in%2Fbombay-stock-exchange-oldest-in-asia%2F&docid=Ts53Gv21K_LukM&tbnid=LIJ5Ec7PDH-WIM&vet=12ahUKEwijm5ztybmQAxXlslYBHV_jLi0QM3oECC0QAA..i&w=730&h=438&hcb=2&ved=2ahUKEwijm5ztybmQAxXlslYBHV_jLi0QM3oECC0QAA', caption ='my image',use_container_width=True)
+st.image('https://www.google.com/imgres?q=bombay%20stock%20exchange&imgurl=https%3A%2F%2Fblog.ipleaders.in%2Fwp-content%2Fuploads%2F2020%2F10%2FMT5-bombay-stock-exchange-bse.png&imgrefurl=https%3A%2F%2Fblog.ipleaders.in%2Fbombay-stock-exchange-oldest-in-asia%2F&docid=Ts53Gv21K_LukM&tbnid=LIJ5Ec7PDH-WIM&vet=12ahUKEwijm5ztybmQAxXlslYBHV_jLi0QM3oECC0QAA..i&w=730&h=438&hcb=2&ved=2ahUKEwijm5ztybmQAxXlslYBHV_jLi0QM3oECC0QAA', caption ='my image',use_container_width=True)
 
 
 st.write("For Brokers, Check the box below:")
